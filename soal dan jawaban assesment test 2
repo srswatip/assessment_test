@@ -1,0 +1,25 @@
+1.Satuan ukuran untuk View dalam Android menggunakan?
+jawaban : sp (scale independent pixels) , dp (density independent pixels) , px (pixels)
+
+2.Lifecycle method apa sajakah yang dipanggil ketika sebuah Activity dihilangkan dari layar?
+jawaban : onPause , onStop , onDestroy.
+
+3.Class apa yang digunakan untuk memutar suara?
+jawaban : PlayAudio
+
+4.Apa yang kita perlukan di Android manifest ketika kita akan memakai internet dan kamera?
+jawaban : 
+a.internet
+<uses-permission android:name="android.permission.INTERNET" />
+b.kamera
+<uses-permission android:name="android.permission.CAMERA" />
+
+5.Apa saja yang kita butuhkan untuk menggunakan RecyclerView?
+jawaban :LayoutManager , ViewHolder , Adapter
+
+6.Apa salah satu kekurangan dari AsyncTask dibandingkan dengan AsyncTaskLoader?
+jawaban :Kelemahan Asynctask adalah jumlah task dalam satu app terbatas. Asynctask juga terkait dengan Activity,
+          sehingga dapat bermasalah jika Activity di-destroy (misal saat device di rotate)
+
+7.Class apakah yang digunakan untuk mengatur Fragment pada Activity?
+ jawaban : FragmentManager
